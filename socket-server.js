@@ -12,6 +12,7 @@ import { Server } from "socket.io";
  */
 
 // ==================== Configuration ====================
+const PORT = parseInt(process.env.PORT || "10000", 10);
 const hostname = process.env.HOSTNAME || process.env.HOST || "0.0.0.0";
 const port = parseInt(process.env.PORT || "3001", 10);
 
